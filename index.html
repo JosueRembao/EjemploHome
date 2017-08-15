@@ -15,6 +15,7 @@
 
     <link href="assets/css/gsdk.css" rel="stylesheet" />
     <link href="assets/css/demo.css" rel="stylesheet" />
+    <link href="assets/css/animations.css" rel="stylesheet" />
 
     <!--     Font Awesome     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -44,35 +45,40 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                        <a class="navbar-brand" href="#gsdk">Sistema de Egresados de Tecnologicos</a>
+                        <div class="slideRight">
+                            <a class="navbar-brand" href="#gsdk">Sistema de Egresados de Tecnologicos</a>
+                        </div>
+
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
+
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#gsdk" class="dropdown-toggle" data-toggle="dropdown">Secciones <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#gsdk">Ver Encuestas</a></li>
-                                    <li><a href="#gsdk">Debo esperar?</a></li>
-                                    <li><a href="resources/howTo.html">Como hacer la encuesta</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-left navbar-search-form" role="search">
-                            <div class="form-group">
-                                <input type="text" value="" class="form-control" placeholder="Search...">
-                            </div>
-                        </form>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#gsdk">Registrarse</a></li>
+                        <div class="slideRight">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#gsdk" class="dropdown-toggle" data-toggle="dropdown">Secciones <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#gsdk">Ver Encuestas</a></li>
+                                        <li><a href="#gsdk">Debo esperar?</a></li>
+                                        <li><a href="resources/howTo.html">Como hacer la encuesta</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left navbar-search-form" role="search">
+                                <div class="form-group">
+                                    <input type="text" value="" class="form-control" placeholder="Search...">
+                                </div>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#gsdk">Registrarse</a></li>
 
-                            <li><button href="#gsdk" class="btn btn-round btn-default">Iniciar Sesion</button></li>
-                        </ul>
-
+                                <li><button href="#gsdk" class="btn btn-round btn-default">Iniciar Sesion</button></li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>
@@ -80,7 +86,10 @@
             </nav>
             <div class="blurred-container">
                 <div class="img-src" style="background-image: url('assets/img/bg.jpg');">
-                    <h1 style="text-align: center;padding-top: 200px; color: white">Bienvenidos!</h1>
+                    <div class="slideUp">
+                        <h1 style="text-align: center;padding-top: 200px; color: white">Bienvenidos!</h1>
+                    </div>
+
                 </div>
             </div>
         </div>
